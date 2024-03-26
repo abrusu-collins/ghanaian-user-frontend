@@ -1,0 +1,36 @@
+nav {
+  color: $dark;
+  border-bottom: 1px solid $faint_grey;
+  padding: 25px 0;
+  & .navbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    & img {
+      width: 4%;
+    }
+    & ul {
+      & li {
+        display: inline;
+        list-style: none;
+        & a {
+          text-decoration: none;
+          color: $dark;
+          padding: 10px;
+          &:hover {
+            background-color: $faint_grey;
+            border-radius: 5px;
+          }
+        }
+      }
+      & li:not(:last-child) {
+        margin-right: 15px;
+      }
+    }
+  }
+  & > ul {
+    display: none;
+  }
+}

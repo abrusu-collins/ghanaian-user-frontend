@@ -1,14 +1,14 @@
 @font-face {
   font-family: proBook;
-  src: url("../../public/circular-book/lineto-circular-pro-book.ttf");
+  src: url("/circular-book/lineto-circular-pro-book.ttf");
 }
 @font-face {
   font-family: proBookBold;
-  src: url("../../public/circular-book/lineto-circular-pro-bold.ttf");
+  src: url("/circular-book/lineto-circular-pro-bold.ttf");
 }
 @font-face {
   font-family: proBookMedium;
-  src: url("../../public/circular-book/lineto-circular-pro-medium.ttf");
+  src: url("/circular-book/lineto-circular-pro-medium.ttf");
 }
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 $black: #333333;
@@ -16,6 +16,7 @@ $dark: #404040;
 $grey: #747474;
 $white: #fcfeff;
 $light_grey: #e9e9e9;
+$faint_grey:#e2e2e2;
 * {
   padding: 0;
   margin: 0;

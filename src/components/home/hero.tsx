@@ -7,15 +7,13 @@ function Hero() {
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt,
         eveniet facilis. Delectus veniet facilis. Delectus
       </p>
-      <p className="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae omnis quam
-        sapiente reprehenderit hic magni animi molestias quasi neque, nobis enim
-        ratione, consectetur nisi numquam nulla magnam. Accusamus, eum quidem.
-      </p>
-
+      <div className="text">
+        <p>Lorem ipsum dolor facilis. Delectus</p>
+        <p>Lorem ipsum dolor</p>
+      </div>
       <div className="cta">
-        <a href="">Open</a>
-        <a href="">Close</a>
+        <a href="">Get Started</a>
+        <a href="">User Guide</a>
       </div>
     </div>
   );

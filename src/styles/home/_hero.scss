@@ -1,0 +1,40 @@
+.hero {
+  width: 70%;
+  margin: 150px auto;
+  text-align: center;
+  & .title {
+    font-family: proBookBold;
+    font-size: 52px;
+  }
+  & .text {
+    margin: 20px 0;
+    display: grid;
+    gap: 16px;
+    color: $grey;
+  }
+  & .cta {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    & a {
+      text-decoration: none;
+      background-color: $dark;
+      color: $white;
+      padding: 20px 90px;
+    //   padding: 1.6rem 2.8rem 1.8rem;
+      border-radius: 5rem;
+      &:nth-child(2) {
+        border: 1px solid $faint_grey;
+        background-color: $white;
+        color: $dark;
+        &:hover {
+          color: $white;
+        }
+      }
+      &:hover {
+        background-color: $black;
+      }
+    }
+  }
+}
