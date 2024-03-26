@@ -50,6 +50,7 @@ nav .navbar ul li a {
 }
 nav .navbar ul li a:hover {
   background-color: #e2e2e2;
+  color: #333333;
   border-radius: 5px;
 }
 nav .navbar ul li:not(:last-child) {
