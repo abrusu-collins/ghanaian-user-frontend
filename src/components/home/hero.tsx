@@ -13,7 +13,7 @@ function Hero() {
       </div>
       <div className="cta">
         <a href="">Get Started</a>
-        <a href="">User Guide</a>
+        <a href="">See it in action</a>
       </div>
     </div>
   );
