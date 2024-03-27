@@ -5,6 +5,7 @@
   & .title {
     font-family: proBookBold;
     font-size: 52px;
+    line-height: 60px;
   }
   & .text {
     margin: 20px 0;
@@ -22,7 +23,7 @@
       background-color: $dark;
       color: $white;
       padding: 20px 90px;
-    //   padding: 1.6rem 2.8rem 1.8rem;
+      //   padding: 1.6rem 2.8rem 1.8rem;
       border-radius: 5rem;
       &:nth-child(2) {
         border: 1px solid $faint_grey;

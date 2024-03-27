@@ -1,4 +1,7 @@
 nav {
+  position: sticky;
+  top: 0;
+  background-color: $white;
   color: $dark;
   border-bottom: 1px solid $faint_grey;
   padding: 25px 0;
@@ -29,6 +32,14 @@ nav {
       & li:not(:last-child) {
         margin-right: 15px;
       }
+    }
+    & .bar{
+      background-color: $faint_grey;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding:6px;
+      border-radius: 8px;
     }
   }
   & > ul {
