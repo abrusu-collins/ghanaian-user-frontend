@@ -1,8 +1,14 @@
 import React from "react";
-
+import { FaGithub } from "react-icons/fa";
+import { GoChevronRight } from "react-icons/go";
 function Hero() {
   return (
     <div className="hero">
+      <a href="" className="star">
+        <FaGithub />
+        <p>Star us on GitHub</p>
+        <GoChevronRight />
+      </a>
       <p className="title">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt,
         eveniet facilis. Delectus veniet facilis. Delectus
