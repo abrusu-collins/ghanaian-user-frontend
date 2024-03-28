@@ -18,7 +18,10 @@ function NavBar() {
             <Link href="/">Home</Link>
           </li>
           <li>
-            <Link href="/app">Generate</Link>
+            <Link href="/app">Docs</Link>
+          </li>
+          <li>
+            <Link href="/app">Playground</Link>
           </li>
           <li>
             <Link href="mailto:snillochemingson@gmail.com">Feedback</Link>
@@ -53,7 +56,10 @@ function NavBar() {
           <Link href="/">Home</Link>
         </li>
         <li>
-          <Link href="/app">Generate</Link>
+          <Link href="/app">Docs</Link>
+        </li>
+        <li>
+          <Link href="/app">Playground</Link>
         </li>
         <li>
           <Link href="mailto:snillochemingson@gmail.com">Feedback</Link>
